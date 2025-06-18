@@ -8,3 +8,8 @@ jobs:
         run: echo "Hello WOrld"
       - name: Print Goodbye
         run: echo "Bye"
+      - name: Print Miscellaneous
+        run: |
+          echo "breakfast"
+          echo "lunch"
+          echo "supper"
